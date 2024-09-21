@@ -1,0 +1,27 @@
+import requests
+
+request_payload= [
+  {
+    "id": 0,
+    "category": {
+      "id": 0,
+      "name": "string"
+    },
+    "name": "doggie",
+    "photoUrls": [
+      "string"
+    ],
+    "tags": [
+      {
+        "id": 0,
+        "name": "string"
+      }
+    ],
+    "status": "available"
+  }
+]
+
+response = requests.get("https://petstore.swagger.io/v2/pet/findByStatus?status=available", json=request_payload)
+
+print(response.status_code)
+print(response.json())
