@@ -1,0 +1,33 @@
+import requests
+
+header = {
+            'accept':'application/json',
+            'Content-type':'application/json'
+            }
+
+request_payload ={
+  "id": 10,
+  "category": {
+    "id": 101,
+    "name": "string"
+  },
+  "name": "cattie",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 10,
+      "name": "string"
+    }
+  ],
+  "status": "available"
+}
+
+
+
+response = requests.post("https://petstore.swagger.io/v2/pet",
+                         headers=header,
+                         json=request_payload)
+print(response.status_code)
+print(response.json())
