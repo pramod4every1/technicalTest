@@ -1,0 +1,17 @@
+How long did you spend on this test? What would you add to your solution if you had more time? If you didn't spend much time on the test then use this as an opportunity to explain what you would add.
+Ans:- I Spend 1 hour for this test.
+
+Have you learned something new doing this test? If yes, describe it here.
+Ans:- Yes I learned how does swagger works first time i used swagger
+
+How would you improve this API you just used?
+Ans:- I never designed any API
+
+What could be improved in the description of the task/use cases so it would be more clear what the requirements are?
+Ans:- All the required values should have saparate api
+
+What are your tools/frameworks of choice when testing each type of test? Why did you choose these tools?
+I have used pycharm, python, requests. I used them because it is free and takes less lines of codes
+
+Describe yourself using JSON.
+I have used json to execute the requests and response 
